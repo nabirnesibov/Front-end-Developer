@@ -1,0 +1,94 @@
+.css1{
+    color: darkslategray;
+    
+}
+.seccss1{
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+   
+}
+.first1 {
+    color: rgb(79, 64, 178);
+}
+.last1{
+    color: green;
+}
+.email1{
+    color: blueviolet;
+}
+.password1{
+    color: darkgoldenrod;
+}
+input[type=radio]{
+    accent-color: green;
+
+}
+.label1{
+    accent-color: red;
+}
+    
+
+    
+
+.inputp :focus{
+    color:rgb(214, 214, 32);
+}
+.inputp:focus::placeholder{
+    color: crimson;
+    background-color: rgb(8, 8, 8);
+}
+.sign1{
+    color: white;
+    background-color: black;
+
+}
+.sign1:hover{
+    color: chartreuse;
+    background-color: darkred;
+
+}
+.seccss2{
+    background-color: rgb(171, 143, 185);
+    justify-content: center;
+    display: flex;
+}
+.img1{
+    margin: 15px;
+    padding: 70px;
+}
+
+.img2{
+    margin: 15px;
+    padding: 70px;
+}
+.data1{
+    color: blueviolet;
+}
+.age1{
+    color: darkgoldenrod;
+}
+.save1{
+    color: blue;
+    background-color: darkseagreen;
+}
+.save1:hover {
+    color: deeppink;
+    background-color: lime;
+
+}
+.seccss3{
+    background-color: rgb(153, 81, 45);
+    display: flex;
+    justify-content: center;
+    
+}
+section form > p {
+    color: rgb(143, 8, 8);
+}
+section ul li {
+    color: green;
+}
+span > p{
+    color: blue;
+}
