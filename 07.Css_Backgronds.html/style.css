@@ -1,0 +1,38 @@
+.learn{
+   
+    
+    color: rgb(33, 35, 150);
+    background-color: transparent;
+}
+.learn:hover{
+    color: red;
+    background-color: blue;
+}
+.sign1{
+    color: rgb(238, 229, 229);
+    background-color: transparent;
+}
+.sign1:hover{
+    color: crimson;
+    background-color: bisque;
+}
+.lorem1{
+    width: 400px;
+}
+.sec1{
+    display: flex;
+    justify-content: center;
+    margin-right: 100px;
+    margin-left: 100px;
+    padding-top: 100px;
+
+}
+.form2{
+    border: 2px solid white;
+    margin: 15px;
+    padding: 40px;
+    
+}
+.form1{
+    padding-top: 110px;
+}
