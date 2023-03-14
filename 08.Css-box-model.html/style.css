@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ {
+    display: flex;
+    list-style-type: none;
+}
+.ul1{
+    display: flex;
+    list-style-type: none;
+    gap: 70px;
+}
+.ul1 a{
+    text-decoration: none;
+    margin: 3px;
+    padding: 3px;
+}
+.ul1 a:hover {
+    color: red;
+    background-color: rgb(67, 144, 156);
+}
+.icons a{
+    margin-right: 30px;
+   
+    
+}
+.icons{
+    margin-right: 90px;
+   
+    
+}
+div img{
+    margin-left: 90px;
+}
+.lorem{
+    width: 500px;
+}
+.section1{
+    padding: 20px;
+    background-image: url(./sky.jpg);
+   
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.div1{
+    margin-top: 250px;
+}
+.div1 a{
+    text-decoration: none;
+    border: 2px solid black;
+    margin: 3px;
+    padding: 5px;
+}
+.div1 a:hover{
+    color: greenyellow;
+    background-color: blueviolet;
+    border: transparent;
+}
+.section2{
+    background-image: url(./Azerbaijan.jpg);
+    background-attachment: fixed;
+    height: 100vh;
+}
+footer{
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    padding: 200px;
+    margin-top: 0;
+}
+.icon1{
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+    gap: 10px;
+}
+footer ul li:hover{
+    color: red;
+}
+footer h3{
+    color: white;
+}
+footer ul{
+    list-style-type: none;
+}
+.front{
+
+}
+.front{
+    font-family: 'Josefin Sans', sans-serif;
+    color: darkblue;
+    text-shadow: 3px 3px 5px red;
+}
+.lorem{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
