@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+.lorem{
+    color: blueviolet;
+}
+.text{
+    color: aqua;
+}
+.image2{
+    display: none;
+}
+.text::after{
+    display: block;
+    content: "";
+    border: 1px solid black;
+    width: 110px;
+}
+@media only screen and (max-width:768px){
+    section{
+        display: block;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .image1{
+        display: none;
+    }
+    .image2{
+        display: inline;
+        justify-content: center;
+        align-items: center;
+    }
+    .txtlorem{
+        background-color: coral;
+    }
+    .text::after{
+        display: block;
+        content: "";
+        border: 1px solid black;
+        width: 200px;
+    }
+
+
+    
+        
+    
+}
