@@ -6,7 +6,9 @@
 
 08.Css-box-model.html - https://lighthearted-rolypoly-3a78a5.netlify.app
 
-09.Css-Grid-Media - 
+09.Css-Grid-Media/grid - https://imaginative-dolphin-be0ecd.netlify.app
+
+09.Css-Grid-Media/media - 
 
 form.html - https://wonderful-lolly-ebd396.netlify.app 
 
