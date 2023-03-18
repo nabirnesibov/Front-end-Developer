@@ -8,7 +8,7 @@
 
 09.Css-Grid-Media/grid - https://imaginative-dolphin-be0ecd.netlify.app
 
-09.Css-Grid-Media/media - 
+09.Css-Grid-Media/media - https://classy-shortbread-588220.netlify.app
 
 form.html - https://wonderful-lolly-ebd396.netlify.app 
 
