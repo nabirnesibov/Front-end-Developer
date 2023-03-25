@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+a {
+  font-family: "Catamaran", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
+  font-family: "Roboto Slab", serif;
+}
+.h3 {
+  font-size: 35px;
+font-family: 'Grand Hotel', cursive;
+
+}
+.sec1 {
+  height: 130vh;
+  background-color: #f1f5f9;
+}
+.user {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 150px 120px;
+  column-gap: 20px;
+}
+.users {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 150px 120px;
+  column-gap: 20px;
+}
+.div1 {
+  display: flex;
+}
+.div2 {
+  display: flex;
+  column-gap: 20px;
+}
+img {
+  width: 270px;
+  height: 250px;
+  border: transparent;
+  border-radius: 8px;
+}
+.product p {
+  width: 300px;
+  color: rgb(51, 78, 113);
+}
+.product h2,
+.product h3,
+.product a {
+  padding-bottom: 20px;
+}
+.product a {
+  color: #f1f5f9;
+  background-color: #688f37;
+  padding: 5px 15px;
+  border: transparent;
+  border-radius: 3px;
+}
+.product a:hover {
+  color: #688f37;
+  background-color: yellow;
+}
+.product h3 {
+  color: #688f37;
+}
+.box h3 {
+  padding: 10px 0;
+}
+.box img {
+  padding-bottom: 15px;
+}
+.buy {
+  color: #688f37;
+}
+.sec2 {
+  height: 130vh;
+}
+.container h3,
+.container h2,
+.container p {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+.container > h3 {
+  color: #688f37;
+}
+.users .div {
+  height: 70vh;
+  background-color: #f1f5f9;
+  margin-top: -100px;
+  text-align: center;
+}
+.fa-solid{
+  position: relative;
+  bottom: 35px;
+  background-color: #688f37;
+  font-size: 40px;
+  color: darkgreen;
+  border: 5px solid yellow;
+  border-radius: 50%;
+  padding: 5px;
+
+}
+.div p {
+  width: 260px;
+  padding-top: 15px;
+  padding-left: 15px;
+  color: rgb(51, 78, 113);
+}
+.div a {
+  color: #f1f5f9;
+  padding: 5px 10px;
+  border: transparent;
+  border-radius: 8px;
+  background-color: #688f37;
+}
+.div a:hover {
+  color: #688f37;
+  background-color: yellow;
+}
+@media only screen and (max-width: 991px) {
+  .user {
+    display: block;
+    column-gap: 10px;
+  }
+  .users {
+    display: block;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .div1,
+  .div2{
+    display: block;
+  }
+}
