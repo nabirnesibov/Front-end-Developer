@@ -1,0 +1,303 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+header {
+  background-color: #20484F;
+  padding: 21px 0;
+}
+
+header .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .header nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-column-gap: 32px;
+          column-gap: 32px;
+}
+
+header .header nav ul li a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #FAFAFA;
+  text-decoration: none;
+}
+
+header .header .menu-icon {
+  display: none;
+}
+
+header .header .contact-btn {
+  gap: 10px;
+}
+
+header .header .contact-btn .btn-1 {
+  padding: 10px 16px;
+  border: transparent;
+  border-radius: 8px;
+}
+
+header .header .contact-btn .btn-2 {
+  padding: 10px 16px;
+  background-color: transparent;
+  border: transparent;
+  border-radius: 8px;
+}
+
+@media only screen and (max-width: 991px) {
+  header .header nav {
+    display: none;
+  }
+  header .header .contact-btn {
+    display: none;
+  }
+  header .header .menu-icon {
+    display: block;
+    color: #FAFAFA;
+  }
+}
+
+#hero {
+  background-color: #FAFAFA;
+}
+
+#hero .hero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px;
+  -webkit-column-gap: 20px;
+          column-gap: 20px;
+}
+
+#hero .hero .hero-content {
+  position: relative;
+  width: 50%;
+}
+
+#hero .hero .hero-content h5 {
+  color: #20484F;
+  font-size: 18px;
+}
+
+#hero .hero .hero-content h2 {
+  color: #072125;
+  font-size: 64px;
+}
+
+#hero .hero .hero-content p {
+  font-size: 24px;
+  color: #072125;
+}
+
+#hero .hero .hero-content .hero-btn {
+  gap: 20px;
+}
+
+#hero .hero .hero-content .hero-btn .signup {
+  color: #FAFAFA;
+  background-color: #20484F;
+  border: transparent;
+  border-radius: 8px;
+  padding: 16px 36px 15px;
+}
+
+#hero .hero .hero-content .hero-btn .learnmore {
+  background-color: transparent;
+  background-color: #FAFAFA;
+  border: 1px solid rgba(32, 72, 79, 0.1);
+  border-radius: 8px;
+  padding: 16px 36px 15px;
+}
+
+#hero .hero .hero-content img {
+  position: absolute;
+  right: 0%;
+  top: 0%;
+}
+
+#team {
+  padding: 94px 0 0 0;
+  background-color: #FAFAFA;
+}
+
+#team .team .row {
+  padding: 64px 90px 124px 136px;
+}
+
+#team .team .row .col-md-3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+footer {
+  height: 50vh;
+  background-color: #20484F;
+}
+
+footer p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #DCF2ED;
+}
+
+footer .footerr {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .footerr .our {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-column-gap: 70px;
+          column-gap: 70px;
+  padding: 100px 0 0 0;
+}
+
+footer .footerr .our h5 {
+  color: #FAFAFA;
+}
+
+footer .footerr .our p {
+  color: #DCF2ED;
+}
+
+footer .footerr .footer {
+  display: block;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+footer .footerr .footer .email-sign {
+  position: relative;
+}
+
+footer .footerr .footer h3 {
+  margin-top: 30px;
+  color: #FAFAFA;
+}
+
+footer .footerr .footer label {
+  color: #FAFAFA;
+}
+
+footer .footerr .footer .checkbox {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-top: 20px;
+}
+
+footer .footerr .footer .checkbox .free {
+  margin-left: 70px;
+}
+
+footer .footerr .footer .checkbox .no {
+  margin-left: 20px;
+}
+
+footer .footerr .footer .email {
+  position: relative;
+  margin-top: 30px;
+  border: transparent;
+  border-radius: 8px;
+}
+
+footer .footerr .footer .signup2 {
+  position: absolute;
+  padding: 0 5px 0 5px;
+  margin-top: 30px;
+  border: transparent;
+  border-radius: 0 8px 8px 0;
+  -webkit-transform: translate(-5px);
+          transform: translate(-5px);
+}
+
+@media only screen and (max-width: 991px) {
+  footer .footer h3 {
+    display: none;
+  }
+  footer .footer .checkbox {
+    display: none;
+  }
+  footer .footer .email-sign {
+    display: none;
+  }
+  footer .our {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: auto;
+  }
+}
+/*# sourceMappingURL=main.css.map */

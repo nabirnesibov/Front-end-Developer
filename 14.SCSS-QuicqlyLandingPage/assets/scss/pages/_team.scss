@@ -1,0 +1,14 @@
+#team{
+    padding: 94px 0 0 0;
+    background-color: $secondary-color;
+    
+    .team{
+        .row{
+            padding: 64px 90px 124px 136px;
+            .col-md-3{
+                @include HeaderBox();
+                flex-direction: column;
+            }
+        }
+    }
+}

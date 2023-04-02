@@ -1,0 +1,83 @@
+footer{
+    height: 50vh;
+    background-color: $primary_color;
+    p{
+        @include HeaderBox(center);
+        color: $color-light
+    }
+    .footerr{
+        @include HeaderBox(space-around);
+        .our{
+            @include HeaderBox(space-between);
+            column-gap: 70px;
+            padding: 100px 0 0 0;
+            h5{
+                color: $secondary-color;
+            }
+            p{
+                color: $color-light;
+            }
+
+        }
+        .footer{
+            display: block;
+            justify-content: center;
+            align-items: flex-start;
+            .email-sign{
+                position: relative;
+            }
+            h3{
+                margin-top: 30px;
+                color: $secondary-color;
+            }
+            label{
+                color: $secondary-color;
+            }
+            .checkbox{
+                flex-direction: column;
+                padding-top: 20px;
+                .free{
+                    margin-left: 70px;
+                }
+                .no{
+                    margin-left: 20px;
+                }
+            }
+            .email{
+                position: relative;
+                margin-top: 30px;
+                border: transparent;
+                border-radius: 8px;
+            }
+            .signup2{
+                position: absolute;
+                padding: 0 5px 0 5px;
+                margin-top: 30px;
+                border: transparent;
+                border-radius: 0 8px 8px 0;
+                transform: translate(-5px);
+            }
+        }
+    }
+
+
+    @media only screen and (max-width:991px){
+        .footer{
+            h3{
+                display: none;
+            }
+            .checkbox{
+                display: none;
+            }
+            .email-sign{
+                display: none;
+            }
+        }
+        .our{
+            flex-direction: column;
+            height: auto;
+        }
+
+    }
+
+}

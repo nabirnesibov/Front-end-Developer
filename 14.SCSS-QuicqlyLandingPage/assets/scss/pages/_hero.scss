@@ -1,0 +1,47 @@
+#hero {
+  background-color: $secondary-color;
+  .hero {
+    @include HeaderBox(space-around);
+    padding: 20px;
+    column-gap: 20px;
+    .hero-content {
+      position: relative;
+      width: 50%;
+      h5 {
+        color: $primary_color;
+        font-size: 18px;
+      }
+      h2 {
+        color: $color-dark;
+        font-size: 64px;
+      }
+      p {
+        font-size: 24px;
+        color: $color-dark;
+      }
+      .hero-btn {
+        gap: 20px;
+        .signup {
+          color: $secondary-color;
+          background-color: $primary_color;
+          border: transparent;
+          border-radius: 8px;
+          padding: 16px 36px 15px;
+        }
+        .learnmore {
+          background-color: transparent;
+          background-color: $secondary-color;
+          border: 1px solid $color_rgba;
+          border-radius: 8px;
+          padding: 16px 36px 15px;
+        }
+      }
+      img {
+        position: absolute;
+        right: 0%;
+        top: 0%;
+      }
+    }
+   
+  }
+}

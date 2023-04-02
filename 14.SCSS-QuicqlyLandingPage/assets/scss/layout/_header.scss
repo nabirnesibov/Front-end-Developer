@@ -1,0 +1,52 @@
+header {
+  
+  background-color: $primary_color;
+  padding: 21px 0;
+  .header {
+    @include HeaderBox(space-around);
+    nav {
+      ul {
+        @include HeaderBox();
+        column-gap: 32px;
+        li {
+          a {
+            @include HeaderBox();
+            color: $secondary-color;
+            text-decoration: none;
+          }
+        }
+      }
+    }
+    .menu-icon {
+      display: none;
+    }
+    .contact-btn{
+        gap: 10px;
+        .btn-1{
+            padding: 10px 16px;
+            border: transparent;
+            border-radius: 8px;
+        }
+        .btn-2{
+            padding: 10px 16px;
+            background-color: transparent;
+            border: transparent;
+            border-radius: 8px;
+        }
+    }
+  }
+  @media only screen and (max-width:991px){
+    .header{
+        nav{
+            display: none;
+        }
+        .contact-btn{
+            display: none;
+        }
+        .menu-icon{
+            display: block;
+            color: $secondary-color;
+        }
+    }
+  }
+}

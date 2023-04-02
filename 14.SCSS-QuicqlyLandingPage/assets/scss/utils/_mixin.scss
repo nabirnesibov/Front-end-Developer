@@ -1,0 +1,5 @@
+@mixin HeaderBox($justify-content: space-between, $align-items: center){
+    display: flex;
+    justify-content: $justify-content;
+    align-items: $align-items;
+}
