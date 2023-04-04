@@ -44,4 +44,19 @@
     }
    
   }
+
+}
+
+@media only screen and (max-width: 991px) {
+  #hero{
+    .hero{
+      flex-direction: column;
+      .hero-content{
+        order:1
+      }
+      .hero-img{
+        order:2
+      }
+    }
+  }
 }

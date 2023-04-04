@@ -149,6 +149,25 @@ header .header .contact-btn .btn-2 {
   top: 0%;
 }
 
+@media only screen and (max-width: 991px) {
+  #hero .hero {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #hero .hero .hero-content {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  #hero .hero .hero-img {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+}
+
 #team {
   padding: 94px 0 0 0;
   background-color: #FAFAFA;
@@ -175,7 +194,7 @@ header .header .contact-btn .btn-2 {
 }
 
 footer {
-  height: 50vh;
+  height: 100%;
   background-color: #20484F;
 }
 
@@ -283,21 +302,26 @@ footer .footerr .footer .signup2 {
 }
 
 @media only screen and (max-width: 991px) {
-  footer .footer h3 {
-    display: none;
-  }
-  footer .footer .checkbox {
-    display: none;
-  }
-  footer .footer .email-sign {
-    display: none;
-  }
-  footer .our {
+  .footerr {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    height: auto;
+  }
+  .footerr .footer h3 {
+    display: none;
+  }
+  .footerr .footer .checkbox {
+    display: none;
+  }
+  .footerr .footer .email-sign {
+    display: none;
+  }
+  .footerr .our {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
 }
 /*# sourceMappingURL=main.css.map */
